@@ -53,19 +53,46 @@ var customersList = [
         "price"           :  100.09,
         "location"        : "London",
         "isAdmin"         :  true,
-        "family_details"  :  [ "Mary", "Robert.J" , 10 ],
+        "family_details"  :  { 
+                                "spousename" : "Mary", 
+                                 "kids"      : [ "Robert.J", "smith" ]
+                             },               
         "streetname"      :  null,
-        "travelldtoIndia" :  undefined
+        "travelldtoIndia" :  undefined,
     },
     {
         "name"            : "Peter.Sr",
         "price"           :  200.57,
         "location"        : "Denmark",
         "isAdmin"         :  false,
-        "family_details"  :  [ "Milenda", "Peter.Jr" , 15 ],
+        "family_details"  :  { 
+                                "spousename" : "Milenda", 
+                                "kids"       : [ "Peter.Jr1", "Peter.Jr2" ]
+                             },
         "streetname"      :  null,
         "travelldtoIndia" :  "Yes"
     },
 ]
 
 
+/************************** How to access the value from the array *******************/
+
+// Task 1 : how to get first customer the familyDetails
+var familyDetails = customersList[0].family_details;
+console.log(familyDetails);
+
+
+// Task 2 : how to get kids of the first customer
+var kidsDetails = customersList[0].family_details.kids;
+console.log(familyDetails);
+
+// Task 3 : how to get first kid from the customer
+var firstkidsDetails = customersList[0].family_details.kids[0];
+console.log(firstkidsDetails);
+
+
+
+// YourTask : How to Add the ages to the kids
+/// Practice as much as possible
+
+// Object and array powerful concepts in the JS.
