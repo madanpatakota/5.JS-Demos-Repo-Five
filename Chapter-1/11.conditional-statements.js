@@ -143,8 +143,9 @@ else{
     console.log("Price is not greter than equal to 100")
 }
 
-// Task : Apply the lessthan and eqal to here.
 
+
+// Task : Apply the lessthan and eqal to here.
 //Example 5
 var customerPrice_1 = 1000 ;
 var customerPrice_2 = 2000 ;
@@ -157,7 +158,6 @@ else{
 
 
 /*How to use the if and else in funcitons*/
-
 //Declaration of the function
 function getFullNameLocationDetails(location){
      if( location == "AUS" ) {

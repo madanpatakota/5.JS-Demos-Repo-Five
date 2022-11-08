@@ -17,7 +17,7 @@ function getCustomerExactInfo(key){
     return customerKeyValue;
 }
 
-//Calling the function
+/****Calling the function***/
 //First approach
 getCustomerExactInfo("price");
 
@@ -29,7 +29,7 @@ getCustomerExactInfo(key);
 
 
 
-/*****************  REMOVED FROM THE CLASS  *********************/
+/***************** . Do't explain  REMOVED FROM THE CLASS - Start -  *********************/
 /************** How to check if property is available or not in the object *****/
               //A : hasownproperty
 
@@ -42,7 +42,7 @@ var customer =  {
     "streetname"      :  null,
     "travelldtoIndia" :  undefined
 };
-
+/***************** . Do't explain  REMOVED FROM THE CLASS - End -  *********************/
 
 
 /********   Creating the multi-objects in the array ***********/

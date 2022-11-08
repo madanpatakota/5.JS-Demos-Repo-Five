@@ -27,7 +27,7 @@ console.log(customerIDs);
 
 
 /*   Writing the same code with for loop
-                for(initliztionthevalue ; apply the condition ; targettheinitliztionvalue){
+                for(initliztionthevalue ; Apply the condition ; targettheinitliztionvalue){
                                     statement ;
                                     statement ;
                                     statement ;
@@ -48,13 +48,14 @@ console.log(customerIDs);
 
 
 //Example 2 : 
-//Find total price by giving the array.
-var customerPrices = [101.09,200.90,300.89,410.78,115.89];
+//Find Total price by giving the array of prices.
+var customerPrices = [101.09, 200.90, 300.89, 410.78, 115.89];
 var totalPrice     = 0;
 
 
 //Here loop will ends when index reach out the 5
-for(var index = 0; index < customerPrices.length; index++){  //Here customerPrices.length is constant
+//Because the customerPrices.length returns the 5
+for(var index = 0; index < customerPrices.length; index++){
     totalPrice += customerPrices[0];
 }
 console.log(totalPrice);

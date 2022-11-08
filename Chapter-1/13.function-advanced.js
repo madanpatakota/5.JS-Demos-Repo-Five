@@ -1,5 +1,5 @@
-
 /* ********************Advanced function****************** */
+/* ******************** How to use swith case , if  with return type functions****************** */
 
 
 function getCustomerDetails(location,price,isAdmin){

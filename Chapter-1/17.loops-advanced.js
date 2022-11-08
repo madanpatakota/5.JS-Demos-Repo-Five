@@ -1,4 +1,4 @@
-/* loops and functions */
+/**************************** loops and functions *******************************/
 var customersList = [
     {
         "name"            : "Clerk",
@@ -19,6 +19,12 @@ var customersList = [
 ]
 
 
+/**  I want to get the customerRecord based on the customerName 
+
+  Parameter  : customerName 
+  return     : customer     
+
+*/
 function getCustomerRecordByName(customerName){
     var customer = null;    // No value is available.
     for(var index = 0; index < customersList.length; index++){  //Here customerPrices.length is constant
@@ -27,7 +33,7 @@ function getCustomerRecordByName(customerName){
         if(customersList[index].name == customerName){
             customer = customersList[index];
         }
-        console.log("********* end - looping number *******" , index);
+        console.log("********* end - looping number   *******" , index);
     }
     return customer;
 }
